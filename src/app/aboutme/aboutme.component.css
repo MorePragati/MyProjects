@@ -1,0 +1,61 @@
+.about{
+    position: relative;
+    margin: 11em auto 0;
+    padding: 2em;
+    padding-left: 27em;
+    background: #fff;
+    width: 75%
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.aboutMe_pos{
+    position: absolute;
+    top: -110%;
+}
+.detailInfo{
+    padding: 2em;
+    background: #fff;
+    width: 75%;
+    margin: 0px auto;
+    height: 400px;
+}
+.detailInfo h3{
+    text-align: center;
+    color: #212121;
+    font-size: 2em;
+    position: relative;
+    padding-bottom: .5em;
+    margin-bottom: 1.5em;
+}
+.detailInfo h3::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    border-bottom: 4px double #23D6E7;
+    width: 20%;
+}
+.col-md-6{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.detailInfo_left p{
+    color: #999;
+    line-height: 2em;
+    font-size: 14px;
+    margin: 0;
+
+}
+.footer{
+    margin: 4em 0 0;
+    text-align: center;
+}
+.h3{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
